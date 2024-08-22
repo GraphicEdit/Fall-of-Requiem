@@ -73,3 +73,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /[Aa]ssets/Plugins/Editor/
 /[Aa]ssets/Plugins/
+/[Aa]ssets/z-samples/
+/[Aa]ssets/z-samples.meta
