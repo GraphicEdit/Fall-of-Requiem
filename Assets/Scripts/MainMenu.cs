@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
 {
 
     public GameObject SettingsPanel;
+    public GameObject CreditsPanel;
+
     public void PlayGame()
     {
         SceneManager.LoadScene(1);
@@ -14,7 +16,7 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
-        SettingsPanel.SetActive(false); 
+        SettingsPanel.SetActive(false);
     }
 
     public void OpenSettingsPanel()
@@ -26,9 +28,14 @@ public class MainMenu : MonoBehaviour
         SettingsPanel.SetActive(false);
     }
 
+    public void OpenCreditsPanel()
+    {
+        CreditsPanel.SetActive(true);
+    }
+
     public void QuitGame()
     {
-        Application.Quit(); 
+        Application.Quit();
     }
 
     public void Setaudio(float value)
