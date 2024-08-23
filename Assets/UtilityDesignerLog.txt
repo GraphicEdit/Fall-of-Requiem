@@ -1,0 +1,2496 @@
+- - - Game time: 0 - - -
+STATE 'Fish' SCORED: 0.9192308
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Hunt' SCORED: 1.251515 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.169697
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.169697
+STATE 'Sleep' SCORED: 0.565
+    Evaluator 'Evaluator 1' scored: 0.1538461
+    Evaluator 'Evaluator 2' scored: 0.2307692
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6936069
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1383308
+    Evaluator 'Evaluator 2' scored: 0.1097881
+    Evaluator 'Evaluator 3' scored: 0.1142857
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.1536368
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1097406
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 0.01999999 - - -
+STATE 'Fish' SCORED: 0.9193
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 6.923074E-05
+STATE 'Hunt' SCORED: 2.502954 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 3.636362E-05
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1696758
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1696545
+STATE 'Sleep' SCORED: 0.56511
+    Evaluator 'Evaluator 1' scored: 0.154
+    Evaluator 'Evaluator 2' scored: 0.2307
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.693603
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1383932
+    Evaluator 'Evaluator 2' scored: 0.1097517
+    Evaluator 'Evaluator 3' scored: 0.1142571
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.1539077
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1099341
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 1.055894 - - -
+STATE 'Fish' SCORED: 0.9226446
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.003413807
+STATE 'Hunt' SCORED: 2.499265 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.001793111
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.168651
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.167605
+STATE 'Sleep' SCORED: 0.5704243
+    Evaluator 'Evaluator 1' scored: 0.1614325
+    Evaluator 'Evaluator 2' scored: 0.2273554
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6934177
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1414159
+    Evaluator 'Evaluator 2' scored: 0.1079858
+    Evaluator 'Evaluator 3' scored: 0.1128768
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.1672249
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1194463
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 2.059037 - - -
+STATE 'Fish' SCORED: 0.9261963
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.00696559
+STATE 'Hunt' SCORED: 2.495347 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.003658694
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1675627
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1654285
+STATE 'Sleep' SCORED: 0.5760675
+    Evaluator 'Evaluator 1' scored: 0.1693252
+    Evaluator 'Evaluator 2' scored: 0.2238037
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6932319
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1446437
+    Evaluator 'Evaluator 2' scored: 0.1060999
+    Evaluator 'Evaluator 3' scored: 0.111411
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.1818398
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1298856
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 3.06497 - - -
+STATE 'Fish' SCORED: 0.9295378
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.010307
+STATE 'Hunt' SCORED: 2.491662 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.005413777
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1665389
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1633809
+STATE 'Sleep' SCORED: 0.5813766
+    Evaluator 'Evaluator 1' scored: 0.1767505
+    Evaluator 'Evaluator 2' scored: 0.2204622
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6930718
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1476993
+    Evaluator 'Evaluator 2' scored: 0.1043165
+    Evaluator 'Evaluator 3' scored: 0.1100321
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.1960189
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1400135
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 4.066004 - - -
+STATE 'Fish' SCORED: 0.9330846
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.01385384
+STATE 'Hunt' SCORED: 2.487749 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.007276765
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1654522
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1612074
+STATE 'Sleep' SCORED: 0.5870121
+    Evaluator 'Evaluator 1' scored: 0.1846324
+    Evaluator 'Evaluator 2' scored: 0.2169154
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6929224
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1509653
+    Evaluator 'Evaluator 2' scored: 0.1024146
+    Evaluator 'Evaluator 3' scored: 0.1085683
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.2115094
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1510782
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 5.068821 - - -
+STATE 'Fish' SCORED: 1.030303 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.01740824
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.5926598
+    Evaluator 'Evaluator 1' scored: 0.1925311
+    Evaluator 'Evaluator 2' scored: 0.213361
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6927989
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1542643
+    Evaluator 'Evaluator 2' scored: 0.1005003
+    Evaluator 'Evaluator 3' scored: 0.1071014
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.2274701
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1624786
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 6.070158 - - -
+STATE 'Fish' SCORED: 1.034188 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.02093972
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.5982709
+    Evaluator 'Evaluator 1' scored: 0.2003789
+    Evaluator 'Evaluator 2' scored: 0.2098295
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6927078
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1575702
+    Evaluator 'Evaluator 2' scored: 0.09859107
+    Evaluator 'Evaluator 3' scored: 0.1056439
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.2437438
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1741027
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 7.071113 - - -
+STATE 'Fish' SCORED: 1.037721 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.02415231
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6033755
+    Evaluator 'Evaluator 1' scored: 0.207518
+    Evaluator 'Evaluator 2' scored: 0.2066169
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6926563
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1606041
+    Evaluator 'Evaluator 2' scored: 0.09684866
+    Evaluator 'Evaluator 3' scored: 0.1043181
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.2588938
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1849242
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 8.07358 - - -
+STATE 'Fish' SCORED: 1.04168 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.02775087
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6090931
+    Evaluator 'Evaluator 1' scored: 0.2155148
+    Evaluator 'Evaluator 2' scored: 0.2030184
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6926394
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1640352
+    Evaluator 'Evaluator 2' scored: 0.09489147
+    Evaluator 'Evaluator 3' scored: 0.102833
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.2762385
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1973132
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 9.078221 - - -
+STATE 'Fish' SCORED: 1.045642 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.03135317
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6148168
+    Evaluator 'Evaluator 1' scored: 0.2235199
+    Evaluator 'Evaluator 2' scored: 0.1994161
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6926707
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1675068
+    Evaluator 'Evaluator 2' scored: 0.09292738
+    Evaluator 'Evaluator 3' scored: 0.1013463
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.2939809
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2099864
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 10.08292 - - -
+STATE 'Fish' SCORED: 1.049181 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.03457032
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6199284
+    Evaluator 'Evaluator 1' scored: 0.2306691
+    Evaluator 'Evaluator 2' scored: 0.1961989
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6927439
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1706407
+    Evaluator 'Evaluator 2' scored: 0.09116998
+    Evaluator 'Evaluator 3' scored: 0.1000186
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.310132
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2215229
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 11.08711 - - -
+STATE 'Fish' SCORED: 1.053099 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7692308
+    Evaluator 'Evaluator 2' scored: 0.03813193
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6255872
+    Evaluator 'Evaluator 1' scored: 0.2385836
+    Evaluator 'Evaluator 2' scored: 0.1926373
+STATE 'Eat' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+    Evaluator 'Evaluator 2' scored: 0
+STATE 'Work out' SCORED: 0.6928799
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1741495
+    Evaluator 'Evaluator 2' scored: 0.08922162
+    Evaluator 'Evaluator 3' scored: 0.09854876
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.3283329
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2345235
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 12.09072 - - -
+STATE 'Fish' SCORED: 1.000586 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7179487
+    Evaluator 'Evaluator 2' scored: 0.0416747
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6312163
+    Evaluator 'Evaluator 1' scored: 0.2464564
+    Evaluator 'Evaluator 2' scored: 0.1890946
+STATE 'Eat' SCORED: 0.3068812
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1381819
+    Evaluator 'Evaluator 2' scored: 0.01755245
+STATE 'Work out' SCORED: 0.6930768
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1776831
+    Evaluator 'Evaluator 2' scored: 0.08728148
+    Evaluator 'Evaluator 3' scored: 0.09708667
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.3467554
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2476824
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 13.09254 - - -
+STATE 'Fish' SCORED: 1.004497 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.7179487
+    Evaluator 'Evaluator 2' scored: 0.0452306
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6368661
+    Evaluator 'Evaluator 1' scored: 0.2543584
+    Evaluator 'Evaluator 2' scored: 0.1855386
+STATE 'Eat' SCORED: 0.3210013
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1499486
+    Evaluator 'Evaluator 2' scored: 0.01755245
+STATE 'Work out' SCORED: 0.6933423
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.181276
+    Evaluator 'Evaluator 2' scored: 0.08533301
+    Evaluator 'Evaluator 3' scored: 0.09561917
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.3655468
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2611049
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 14.09741 - - -
+STATE 'Fish' SCORED: 0.9519919 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.6666667
+    Evaluator 'Evaluator 2' scored: 0.04878043
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6425063
+    Evaluator 'Evaluator 1' scored: 0.2622468
+    Evaluator 'Evaluator 2' scored: 0.1819888
+STATE 'Eat' SCORED: 0.3571568
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1616959
+    Evaluator 'Evaluator 2' scored: 0.03593469
+STATE 'Work out' SCORED: 0.6936798
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1849114
+    Evaluator 'Evaluator 2' scored: 0.08338763
+    Evaluator 'Evaluator 3' scored: 0.09415416
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.38459
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2747071
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 15.09859 - - -
+STATE 'Fish' SCORED: 0.9555122 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.6666667
+    Evaluator 'Evaluator 2' scored: 0.05198082
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6475914
+    Evaluator 'Evaluator 1' scored: 0.2693587
+    Evaluator 'Evaluator 2' scored: 0.1787884
+STATE 'Eat' SCORED: 0.3698674
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1722881
+    Evaluator 'Evaluator 2' scored: 0.03593469
+STATE 'Work out' SCORED: 0.6940508
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1882329
+    Evaluator 'Evaluator 2' scored: 0.08163431
+    Evaluator 'Evaluator 3' scored: 0.09283338
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.4019867
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2871334
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 15.93451 - - -
+STATE 'Fish' SCORED: 0.9586313 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.6666667
+    Evaluator 'Evaluator 2' scored: 0.05481628
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6520963
+    Evaluator 'Evaluator 1' scored: 0.2756597
+    Evaluator 'Evaluator 2' scored: 0.175953
+STATE 'Eat' SCORED: 0.3811307
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1816742
+    Evaluator 'Evaluator 2' scored: 0.03593469
+STATE 'Work out' SCORED: 0.6944355
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1912119
+    Evaluator 'Evaluator 2' scored: 0.0800819
+    Evaluator 'Evaluator 3' scored: 0.09166321
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.4175701
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2982644
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 17.94291 - - -
+STATE 'Fish' SCORED: 0.9101893 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.6153846
+    Evaluator 'Evaluator 2' scored: 0.0620601
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.663606
+    Evaluator 'Evaluator 1' scored: 0.291757
+    Evaluator 'Evaluator 2' scored: 0.1687091
+STATE 'Eat' SCORED: 0.4323856
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2056633
+    Evaluator 'Evaluator 2' scored: 0.05465799
+STATE 'Work out' SCORED: 0.6956758
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1989868
+    Evaluator 'Evaluator 2' scored: 0.07612341
+    Evaluator 'Evaluator 3' scored: 0.0886737
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.458046
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3271757
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 19.49676 - - -
+STATE 'Fish' SCORED: 0.8597076 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.5641026
+    Evaluator 'Evaluator 2' scored: 0.06744967
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6721694
+    Evaluator 'Evaluator 1' scored: 0.3037338
+    Evaluator 'Evaluator 2' scored: 0.1633196
+STATE 'Eat' SCORED: 0.4761106
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2235252
+    Evaluator 'Evaluator 2' scored: 0.07323362
+STATE 'Work out' SCORED: 0.6968596
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2049348
+    Evaluator 'Evaluator 2' scored: 0.07318879
+    Evaluator 'Evaluator 3' scored: 0.08644944
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.4887126
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3490804
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 21.16815 - - -
+STATE 'Fish' SCORED: 0.8655683 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.5641026
+    Evaluator 'Evaluator 2' scored: 0.07277771
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6806349
+    Evaluator 'Evaluator 1' scored: 0.3155738
+    Evaluator 'Evaluator 2' scored: 0.1579915
+STATE 'Eat' SCORED: 0.497318
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.241198
+    Evaluator 'Evaluator 2' scored: 0.07323362
+STATE 'Work out' SCORED: 0.6982687
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2109618
+    Evaluator 'Evaluator 2' scored: 0.07030004
+    Evaluator 'Evaluator 3' scored: 0.08425058
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.5194252
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.371018
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 22.83773 - - -
+STATE 'Fish' SCORED: 0.7592541 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.4615385
+    Evaluator 'Evaluator 2' scored: 0.07869247
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6900328
+    Evaluator 'Evaluator 1' scored: 0.3287177
+    Evaluator 'Evaluator 2' scored: 0.1520768
+STATE 'Eat' SCORED: 0.5625901
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2608381
+    Evaluator 'Evaluator 2' scored: 0.1079869
+STATE 'Work out' SCORED: 0.7001324
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2178341
+    Evaluator 'Evaluator 2' scored: 0.06711128
+    Evaluator 'Evaluator 3' scored: 0.08180957
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.5539101
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3956501
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 24.51281 - - -
+STATE 'Fish' SCORED: 0.7657536 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.4615385
+    Evaluator 'Evaluator 2' scored: 0.08460103
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.6994209
+    Evaluator 'Evaluator 1' scored: 0.3418479
+    Evaluator 'Evaluator 2' scored: 0.1461682
+STATE 'Eat' SCORED: 0.5861653
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2804841
+    Evaluator 'Evaluator 2' scored: 0.1079869
+STATE 'Work out' SCORED: 0.7023324
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2249015
+    Evaluator 'Evaluator 2' scored: 0.06394899
+    Evaluator 'Evaluator 3' scored: 0.07937112
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.5886914
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4204938
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 26.18437 - - -
+STATE 'Fish' SCORED: 0.7158567 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.09052233
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.7088292
+    Evaluator 'Evaluator 1' scored: 0.3550063
+    Evaluator 'Evaluator 2' scored: 0.1402469
+STATE 'Eat' SCORED: 0.6280688
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3002034
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.7049004
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2321989
+    Evaluator 'Evaluator 2' scored: 0.06080725
+    Evaluator 'Evaluator 3' scored: 0.07692741
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.6238008
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.445572
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 27.85327 - - -
+STATE 'Fish' SCORED: 0.7223388 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.09641518
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.007653914
+    Evaluator 'Evaluator 2' scored: 0.3030303
+    Evaluator 'Evaluator 3' scored: 0.1652322
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607674
+STATE 'Sleep' SCORED: 0.7181923
+    Evaluator 'Evaluator 1' scored: 0.3681016
+    Evaluator 'Evaluator 2' scored: 0.1343541
+STATE 'Eat' SCORED: 0.6516604
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3198631
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.707841
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2396866
+    Evaluator 'Evaluator 2' scored: 0.05771199
+    Evaluator 'Evaluator 3' scored: 0.07449543
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.6589139
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4706528
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 29.52667 - - -
+STATE 'Fish' SCORED: 0.6107326
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1017582
+STATE 'Hunt' SCORED: 0.8924327
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.05344873
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1385185
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1073403
+STATE 'Sleep' SCORED: 1.453363 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.3799748
+    Evaluator 'Evaluator 2' scored: 0.1290111
+STATE 'Eat' SCORED: 0.689186
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3377222
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0.7108598
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.24668
+    Evaluator 'Evaluator 2' scored: 0.05493612
+    Evaluator 'Evaluator 3' scored: 0.07229039
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.6908321
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4934515
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 31.1998 - - -
+STATE 'Fish' SCORED: 0.6166028
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1076285
+STATE 'Hunt' SCORED: 0.8891951
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.05653212
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1367199
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.103743
+STATE 'Sleep' SCORED: 1.472018 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.3930199
+    Evaluator 'Evaluator 2' scored: 0.1231408
+STATE 'Eat' SCORED: 0.7127813
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.357385
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0.7145845
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2545983
+    Evaluator 'Evaluator 2' scored: 0.05192363
+    Evaluator 'Evaluator 3' scored: 0.06986773
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.7259175
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5185125
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 32.86943 - - -
+STATE 'Fish' SCORED: 0.6225665
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1135921
+STATE 'Hunt' SCORED: 0.8977849
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.05966454
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1348926
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1085734
+STATE 'Sleep' SCORED: 1.410969 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.3755032
+    Evaluator 'Evaluator 2' scored: 0.1171771
+STATE 'Eat' SCORED: 0.7368101
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3774089
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0.7274012
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2629059
+    Evaluator 'Evaluator 2' scored: 0.04890735
+    Evaluator 'Evaluator 3' scored: 0.07312083
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.761501
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5439293
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 34.5393 - - -
+STATE 'Fish' SCORED: 0.6285014
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1195271
+STATE 'Hunt' SCORED: 0.9449965
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.0627819
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1330741
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1409971
+STATE 'Sleep' SCORED: 1.089829 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.2579228
+    Evaluator 'Evaluator 2' scored: 0.1112422
+STATE 'Eat' SCORED: 0.7607866
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3973893
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0.7685406
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2714492
+    Evaluator 'Evaluator 2' scored: 0.04595398
+    Evaluator 'Evaluator 3' scored: 0.0949572
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.7967724
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5691231
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 36.20983 - - -
+STATE 'Fish' SCORED: 0.6338044
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1248301
+STATE 'Hunt' SCORED: 1.925719 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.06556734
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1314493
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1525959
+STATE 'Sleep' SCORED: 0.4833404
+    Evaluator 'Evaluator 1' scored: 0.2158612
+    Evaluator 'Evaluator 2' scored: 0.1059391
+STATE 'Eat' SCORED: 0.7822681
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4152905
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0.7881799
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2793252
+    Evaluator 'Evaluator 2' scored: 0.04335941
+    Evaluator 'Evaluator 3' scored: 0.1027686
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.8281032
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5915023
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 37.87998 - - -
+STATE 'Fish' SCORED: 0.6397232
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1307489
+STATE 'Hunt' SCORED: 1.919191 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.06867618
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1296358
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1489689
+STATE 'Sleep' SCORED: 0.4927447
+    Evaluator 'Evaluator 1' scored: 0.229014
+    Evaluator 'Evaluator 2' scored: 0.1000203
+STATE 'Eat' SCORED: 0.8065433
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4355199
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0.7938597
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.288397
+    Evaluator 'Evaluator 2' scored: 0.04051682
+    Evaluator 'Evaluator 3' scored: 0.100326
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.862792
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.61628
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 39.54779 - - -
+STATE 'Fish' SCORED: 0.6456836
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1367093
+STATE 'Hunt' SCORED: 1.912616 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.07180691
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1278095
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1453164
+STATE 'Sleep' SCORED: 0.502215
+    Evaluator 'Evaluator 1' scored: 0.2422593
+    Evaluator 'Evaluator 2' scored: 0.09405994
+STATE 'Eat' SCORED: 0.8341489
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4585245
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0.8001378
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2978439
+    Evaluator 'Evaluator 2' scored: 0.03771515
+    Evaluator 'Evaluator 3' scored: 0.09786613
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0
+STATE 'Play' SCORED: 0.8973481
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.640963
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 41.22294 - - -
+STATE 'Fish' SCORED: 0.6511018
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1421274
+STATE 'Hunt' SCORED: 0.95332
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.0746528
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1261495
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1419962
+STATE 'Sleep' SCORED: 0.5108238
+    Evaluator 'Evaluator 1' scored: 0.2542996
+    Evaluator 'Evaluator 2' scored: 0.0886418
+STATE 'Eat' SCORED: 0.8633136
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4828285
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 10 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.9283633
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.6631166
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 1
+
+
+- - - Game time: 42.89675 - - -
+STATE 'Fish' SCORED: 0.6570399
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.1480656
+STATE 'Hunt' SCORED: 1.90009 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.07777181
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.12433
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1383573
+STATE 'Sleep' SCORED: 0.520259
+    Evaluator 'Evaluator 1' scored: 0.2674955
+    Evaluator 'Evaluator 2' scored: 0.08270369
+STATE 'Eat' SCORED: 0.9005584
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5138658
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.9618455
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.6870325
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 44.57111 - - -
+STATE 'Fish' SCORED: 0.4066545
+    Evaluator 'Evaluator 1' scored: 0.1025641
+    Evaluator 'Evaluator 2' scored: 0.1540904
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.5298318
+    Evaluator 'Evaluator 1' scored: 0.2808841
+    Evaluator 'Evaluator 2' scored: 0.07667883
+STATE 'Eat' SCORED: 1.009648 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5508
+    Evaluator 'Evaluator 2' scored: 0.1905734
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.9951914
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.710851
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 46.24007 - - -
+STATE 'Fish' SCORED: 0.4126259
+    Evaluator 'Evaluator 1' scored: 0.1025641
+    Evaluator 'Evaluator 2' scored: 0.1600618
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.5393197
+    Evaluator 'Evaluator 1' scored: 0.2941539
+    Evaluator 'Evaluator 2' scored: 0.07070741
+STATE 'Eat' SCORED: 1.909763 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5935763
+    Evaluator 'Evaluator 2' scored: 0.1905734
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.027537
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.7339549
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 47.91124 - - -
+STATE 'Fish' SCORED: 0.4179495
+    Evaluator 'Evaluator 1' scored: 0.1025641
+    Evaluator 'Evaluator 2' scored: 0.1653854
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.5477782
+    Evaluator 'Evaluator 1' scored: 0.3059841
+    Evaluator 'Evaluator 2' scored: 0.06538383
+STATE 'Eat' SCORED: 2 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.6370625
+    Evaluator 'Evaluator 2' scored: 0.1905734
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.055715
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.754082
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 49.5783 - - -
+STATE 'Fish' SCORED: 0.4571238
+    Evaluator 'Evaluator 1' scored: 0.2051282
+    Evaluator 'Evaluator 2' scored: 0.1019956
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.647059
+    Evaluator 'Evaluator 1' scored: 0.3189641
+    Evaluator 'Evaluator 2' scored: 0.1287736
+STATE 'Eat' SCORED: 1.3204 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3385168
+    Evaluator 'Evaluator 2' scored: 0.1727796
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.085845
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.7756037
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 51.24574 - - -
+STATE 'Fish' SCORED: 0.4797094
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.07329919
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.7014635
+    Evaluator 'Evaluator 1' scored: 0.3321173
+    Evaluator 'Evaluator 2' scored: 0.15747
+STATE 'Eat' SCORED: 0.6054713
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2429287
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.338554 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.7967581
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 52.91554 - - -
+STATE 'Fish' SCORED: 0.4856423
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.07923204
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.7108902
+    Evaluator 'Evaluator 1' scored: 0.3453014
+    Evaluator 'Evaluator 2' scored: 0.1515372
+STATE 'Eat' SCORED: 0.6291141
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.262631
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.37297 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.8172438
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 54.58968 - - -
+STATE 'Fish' SCORED: 0.4910415
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.08463124
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.719469
+    Evaluator 'Evaluator 1' scored: 0.3572997
+    Evaluator 'Evaluator 2' scored: 0.146138
+STATE 'Eat' SCORED: 0.6506584
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2805847
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.403158 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.8352132
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 56.26409 - - -
+STATE 'Fish' SCORED: 0.497029
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.09061873
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.7289823
+    Evaluator 'Evaluator 1' scored: 0.3706051
+    Evaluator 'Evaluator 2' scored: 0.1401505
+STATE 'Eat' SCORED: 0.6745865
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3005248
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.435283 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.8543353
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 57.93468 - - -
+STATE 'Fish' SCORED: 0.502988
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.09657776
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.7384506
+    Evaluator 'Evaluator 1' scored: 0.3838475
+    Evaluator 'Evaluator 2' scored: 0.1341915
+STATE 'Eat' SCORED: 0.698444
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.320406
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.465748 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.8724689
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 59.60976 - - -
+STATE 'Fish' SCORED: 0.5083404
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.1019302
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.7469551
+    Evaluator 'Evaluator 1' scored: 0.3957418
+    Evaluator 'Evaluator 2' scored: 0.1288391
+STATE 'Eat' SCORED: 0.7199141
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3382978
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.491747 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.8879448
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 61.27742 - - -
+STATE 'Fish' SCORED: 0.5142751
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.1078649
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.7563846
+    Evaluator 'Evaluator 1' scored: 0.40893
+    Evaluator 'Evaluator 2' scored: 0.1229044
+STATE 'Eat' SCORED: 0.7437703
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3581779
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.2997666
+    Evaluator 'Evaluator 2' scored: 0.03716402
+    Evaluator 'Evaluator 3' scored: 0.09737549
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.518977 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.904153
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 62.94826 - - -
+STATE 'Fish' SCORED: 0.5202309
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.1138207
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.7658477
+    Evaluator 'Evaluator 1' scored: 0.4221651
+    Evaluator 'Evaluator 2' scored: 0.1169485
+STATE 'Eat' SCORED: 0.7677699
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3781775
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 1.604309 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.462887
+    Evaluator 'Evaluator 2' scored: 0.08568417
+    Evaluator 'Evaluator 3' scored: 0.06445505
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.362139
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2586707
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 64.61616 - - -
+STATE 'Fish' SCORED: 0.5261717
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.1197615
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.775287
+    Evaluator 'Evaluator 1' scored: 0.4353668
+    Evaluator 'Evaluator 2' scored: 0.1110078
+STATE 'Eat' SCORED: 0.7917722
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3981795
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 1.622566 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4767084
+    Evaluator 'Evaluator 2' scored: 0.0824287
+    Evaluator 'Evaluator 3' scored: 0.06200331
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.3940775
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2814839
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 66.28951 - - -
+STATE 'Fish' SCORED: 0.5314798
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.1250696
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.783721
+    Evaluator 'Evaluator 1' scored: 0.4471626
+    Evaluator 'Evaluator 2' scored: 0.1056997
+STATE 'Eat' SCORED: 0.8132768
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4161
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 1.056076 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2321136
+    Evaluator 'Evaluator 2' scored: 0.07744092
+    Evaluator 'Evaluator 3' scored: 0.05981266
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.4444588
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3174706
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 67.95849 - - -
+STATE 'Fish' SCORED: 0.5374004
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.1309902
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.08062341
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1226666
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1350304
+STATE 'Sleep' SCORED: 0.7931281
+    Evaluator 'Evaluator 1' scored: 0.4603194
+    Evaluator 'Evaluator 2' scored: 0.09977909
+STATE 'Eat' SCORED: 1.507712 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4363842
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0.5335807
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.125456
+    Evaluator 'Evaluator 2' scored: 0.07289522
+    Evaluator 'Evaluator 3' scored: 0.05736925
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.4918103
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3512931
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 69.62809 - - -
+STATE 'Fish' SCORED: 0.5433627
+    Evaluator 'Evaluator 1' scored: 0.2564102
+    Evaluator 'Evaluator 2' scored: 0.1369524
+STATE 'Hunt' SCORED: 0.875308
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.07193461
+    Evaluator 'Evaluator 2' scored: 0.04795869
+    Evaluator 'Evaluator 3' scored: 0.1722806
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.081531
+STATE 'Sleep' SCORED: 0.8026015
+    Evaluator 'Evaluator 1' scored: 0.4735689
+    Evaluator 'Evaluator 2' scored: 0.09381682
+STATE 'Eat' SCORED: 1.557731 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4595412
+    Evaluator 'Evaluator 2' scored: 0.1616307
+STATE 'Work out' SCORED: 0.5330132
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1307684
+    Evaluator 'Evaluator 2' scored: 0.06966514
+    Evaluator 'Evaluator 3' scored: 0.05490863
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.5262433
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.375888
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 71.30207 - - -
+STATE 'Fish' SCORED: 0.5825869
+    Evaluator 'Evaluator 1' scored: 0.3589743
+    Evaluator 'Evaluator 2' scored: 0.07361261
+STATE 'Hunt' SCORED: 0.8752888
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.03866521
+    Evaluator 'Evaluator 2' scored: 0.08662926
+    Evaluator 'Evaluator 3' scored: 0.1704756
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.07792106
+STATE 'Sleep' SCORED: 0.9019616
+    Evaluator 'Evaluator 1' scored: 0.4866599
+    Evaluator 'Evaluator 2' scored: 0.1571566
+STATE 'Eat' SCORED: 1.038028 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2439689
+    Evaluator 'Evaluator 2' scored: 0.1365995
+STATE 'Work out' SCORED: 0.5325222
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1360439
+    Evaluator 'Evaluator 2' scored: 0.06649344
+    Evaluator 'Evaluator 3' scored: 0.05247745
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.5606608
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.400472
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 72.97569 - - -
+STATE 'Fish' SCORED: 0.6051723
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.04491586
+STATE 'Hunt' SCORED: 0.8781176
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.02359217
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1686621
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.07429414
+STATE 'Sleep' SCORED: 1.912731 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.4998125
+    Evaluator 'Evaluator 2' scored: 0.1858534
+STATE 'Eat' SCORED: 0.4465132
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1489071
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.5321229
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.141383
+    Evaluator 'Evaluator 2' scored: 0.06333075
+    Evaluator 'Evaluator 3' scored: 0.05003483
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.5955573
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4253981
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 74.64571 - - -
+STATE 'Fish' SCORED: 0.6105142
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.05025773
+STATE 'Hunt' SCORED: 0.9078381
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.026398
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1670254
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.094354
+STATE 'Sleep' SCORED: 1.709707 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.4270679
+    Evaluator 'Evaluator 2' scored: 0.1805115
+STATE 'Eat' SCORED: 0.4677267
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1665851
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.5554348
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.146245
+    Evaluator 'Evaluator 2' scored: 0.06050038
+    Evaluator 'Evaluator 3' scored: 0.06354453
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.6272592
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4480423
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 76.3154 - - -
+STATE 'Fish' SCORED: 0.6164163
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.05615989
+STATE 'Hunt' SCORED: 0.9550678
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.02949812
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.165217
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1267978
+STATE 'Sleep' SCORED: 1.388462 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.3094146
+    Evaluator 'Evaluator 2' scored: 0.1746094
+STATE 'Eat' SCORED: 0.4911717
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1861226
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.5917103
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1516755
+    Evaluator 'Evaluator 2' scored: 0.05740358
+    Evaluator 'Evaluator 3' scored: 0.08539443
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.6624403
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4731717
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 77.9825 - - -
+STATE 'Fish' SCORED: 0.6223474
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.06209099
+STATE 'Hunt' SCORED: 1.002282
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.03261345
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1633997
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1592239
+STATE 'Sleep' SCORED: 1.06731 >>> EXECUTING <<<
+    Evaluator 'Evaluator 1' scored: 0.1918256
+    Evaluator 'Evaluator 2' scored: 0.1686783
+STATE 'Eat' SCORED: 0.5147434
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2057657
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.6281498
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1572063
+    Evaluator 'Evaluator 2' scored: 0.0543279
+    Evaluator 'Evaluator 3' scored: 0.1072324
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.6978788
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.4984848
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 79.65779 - - -
+STATE 'Fish' SCORED: 0.6282715
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.06801502
+STATE 'Hunt' SCORED: 2.021786 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.03572506
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1615846
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1640785
+STATE 'Sleep' SCORED: 0.5030676
+    Evaluator 'Evaluator 1' scored: 0.1742209
+    Evaluator 'Evaluator 2' scored: 0.1627542
+STATE 'Eat' SCORED: 0.5383043
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2253997
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.6369214
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.162816
+    Evaluator 'Evaluator 2' scored: 0.05129641
+    Evaluator 'Evaluator 3' scored: 0.1105018
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.7332798
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5237713
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 81.32455 - - -
+STATE 'Fish' SCORED: 0.6336557
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.07339922
+STATE 'Hunt' SCORED: 2.015847
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.03855312
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1599349
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1607791
+STATE 'Sleep' SCORED: 0.5116225
+    Evaluator 'Evaluator 1' scored: 0.1861857
+    Evaluator 'Evaluator 2' scored: 0.15737
+STATE 'Eat' SCORED: 0.5597374
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2432607
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.6372879
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.167999
+    Evaluator 'Evaluator 2' scored: 0.04857987
+    Evaluator 'Evaluator 3' scored: 0.1082798
+STATE 'Fight' SCORED: 5 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.7653911
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5467079
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 1
+
+
+- - - Game time: 82.99426 - - -
+STATE 'Fish' SCORED: 0.6396406
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.07938418
+STATE 'Hunt' SCORED: 2.009246 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.04169674
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1581011
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1571115
+STATE 'Sleep' SCORED: 0.5211319
+    Evaluator 'Evaluator 1' scored: 0.1994857
+    Evaluator 'Evaluator 2' scored: 0.1513851
+STATE 'Eat' SCORED: 0.5835886
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2631366
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.6379246
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1738658
+    Evaluator 'Evaluator 2' scored: 0.04560747
+    Evaluator 'Evaluator 3' scored: 0.1058098
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.8009382
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5720987
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 84.66969 - - -
+STATE 'Fish' SCORED: 0.6455846
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.08532823
+STATE 'Hunt' SCORED: 2.002689 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.04481886
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1562799
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.153469
+STATE 'Sleep' SCORED: 0.5305764
+    Evaluator 'Evaluator 1' scored: 0.2126947
+    Evaluator 'Evaluator 2' scored: 0.145441
+STATE 'Eat' SCORED: 0.6073096
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.2829041
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.6388196
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1798142
+    Evaluator 'Evaluator 2' scored: 0.04270877
+    Evaluator 'Evaluator 3' scored: 0.1033567
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.8360098
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.5971498
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 1
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 86.34246 - - -
+STATE 'Fish' SCORED: 0.6509219
+    Evaluator 'Evaluator 1' scored: 0.4102564
+    Evaluator 'Evaluator 2' scored: 0.09066558
+STATE 'Hunt' SCORED: 1.996802 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.04762232
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1546445
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1501983
+STATE 'Sleep' SCORED: 0.5390568
+    Evaluator 'Evaluator 1' scored: 0.2245555
+    Evaluator 'Evaluator 2' scored: 0.1401037
+STATE 'Eat' SCORED: 0.6286418
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3006809
+    Evaluator 'Evaluator 2' scored: 0.1231872
+STATE 'Work out' SCORED: 0.6398667
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.185269
+    Evaluator 'Evaluator 2' scored: 0.0401548
+    Evaluator 'Evaluator 3' scored: 0.101154
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 0.867237
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.619455
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 88.00957 - - -
+STATE 'Fish' SCORED: 0.4004447
+    Evaluator 'Evaluator 1' scored: 0.1538461
+    Evaluator 'Evaluator 2' scored: 0.09659859
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.04762232
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1546445
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1501983
+STATE 'Sleep' SCORED: 0.5484837
+    Evaluator 'Evaluator 1' scored: 0.2377399
+    Evaluator 'Evaluator 2' scored: 0.1341707
+STATE 'Eat' SCORED: 0.7236251
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3204756
+    Evaluator 'Evaluator 2' scored: 0.1825453
+STATE 'Work out' SCORED: 0.6413234
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.1914696
+    Evaluator 'Evaluator 2' scored: 0.03737395
+    Evaluator 'Evaluator 3' scored: 0.09870545
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.081897 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.6439865
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 89.67795 - - -
+STATE 'Fish' SCORED: 0.4063398
+    Evaluator 'Evaluator 1' scored: 0.1538461
+    Evaluator 'Evaluator 2' scored: 0.1024936
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.04762232
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1546445
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1501983
+STATE 'Sleep' SCORED: 0.5578503
+    Evaluator 'Evaluator 1' scored: 0.25084
+    Evaluator 'Evaluator 2' scored: 0.1282756
+STATE 'Eat' SCORED: 0.7472742
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3401831
+    Evaluator 'Evaluator 2' scored: 0.1825453
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.1920985
+    Evaluator 'Evaluator 2' scored: 0.03709918
+    Evaluator 'Evaluator 3' scored: 0.09846041
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.122293 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.6680316
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 91.35279 - - -
+STATE 'Fish' SCORED: 0.4122716
+    Evaluator 'Evaluator 1' scored: 0.1538461
+    Evaluator 'Evaluator 2' scored: 0.1084254
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.04762232
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1546445
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1501983
+STATE 'Sleep' SCORED: 0.5672752
+    Evaluator 'Evaluator 1' scored: 0.2640218
+    Evaluator 'Evaluator 2' scored: 0.1223438
+STATE 'Eat' SCORED: 0.7711241
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.360058
+    Evaluator 'Evaluator 2' scored: 0.1825453
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.1920985
+    Evaluator 'Evaluator 2' scored: 0.03709918
+    Evaluator 'Evaluator 3' scored: 0.09846041
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.162288 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.6918379
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
+- - - Game time: 93.02503 - - -
+STATE 'Fish' SCORED: 0.417601
+    Evaluator 'Evaluator 1' scored: 0.1538461
+    Evaluator 'Evaluator 2' scored: 0.1137548
+STATE 'Hunt' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.04762232
+    Evaluator 'Evaluator 2' scored: 0.1091632
+    Evaluator 'Evaluator 3' scored: 0.1546445
+    Evaluator 'Evaluator 4' scored: 0.1515152
+    Evaluator 'Evaluator 5' scored: 0.1501983
+STATE 'Sleep' SCORED: 0.5757431
+    Evaluator 'Evaluator 1' scored: 0.2758648
+    Evaluator 'Evaluator 2' scored: 0.1170144
+STATE 'Eat' SCORED: 0.7926015
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.3779559
+    Evaluator 'Evaluator 2' scored: 0.1825453
+STATE 'Work out' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 0.1920985
+    Evaluator 'Evaluator 2' scored: 0.03709918
+    Evaluator 'Evaluator 3' scored: 0.09846041
+STATE 'Fight' SCORED: 0
+    Precondition 'Precondition 1' met: False
+    Evaluator 'Evaluator 1' scored: 1
+STATE 'Play' SCORED: 1.197582 >>> EXECUTING <<<
+    Precondition 'Precondition 1' met: True
+    Evaluator 'Evaluator 1' scored: 0.7128464
+* * * * * * * * * * * * * * * *
+Consideration 'UD James' 'Hunger' value: 0
+Consideration 'UD James' 'Energy' value: 0
+Consideration 'UD James' 'Food' value: 0
+Consideration 'UD James' 'Motivation' value: 0
+Consideration 'UD James' 'Strength' value: 0
+Consideration 'UD Environment' 'Deer nearby' value: 0
+Consideration 'UD Environment' 'Bears nearby' value: 0
+
+
