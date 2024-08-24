@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Data.SqlTypes;
+using Microsoft.Unity.VisualStudio.Editor;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 using System.Collections;
+using UnityEngine.UI;
 #endif
 
 namespace StarterAssets
@@ -55,7 +57,7 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera up")]
 		public float TopClamp = 90.0f;
 		[Tooltip("How far in degrees can you move the camera down")]
-		public float BottomClamp = -90.0f;
+		public float BottomClamp = -90.0f; 
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -69,6 +71,8 @@ namespace StarterAssets
 		// Stamina
 		private float _staminaRechargeRate =  5f;
 		private Coroutine _recharge;
+		public UnityEngine.UI.Image _staminaBar;
+		public UnityEngine.UI.Image _background;
 		 
 
 		// timeout deltatime
@@ -174,6 +178,7 @@ namespace StarterAssets
                 if (_stamina > 0)
                 {
                     _stamina -= 5 * Time.deltaTime;
+					_staminaBar.fillAmount = _stamina / _maxStamina;
                 }
                 else
                 {
@@ -186,15 +191,28 @@ namespace StarterAssets
                     StopCoroutine(_recharge);
                 }
 
-                _recharge = StartCoroutine(StaminaRecharge());
-            }
-              
-
-              
-
-            
 
 			
+
+                _recharge = StartCoroutine(StaminaRecharge());
+            }
+
+            // If the stamina is equals to max stamina, then the stamina bar will dissapear
+            if (_stamina == _maxStamina)
+            {
+                _staminaBar.enabled = false;
+				_background.enabled= false;
+            }
+            else
+            {
+                _staminaBar.enabled = true;
+				_background.enabled = true;
+            }
+
+
+
+
+
             // a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 
             // note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
@@ -236,7 +254,8 @@ namespace StarterAssets
             // move the player
             _controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 
-			Debug.Log( "speed: " + targetSpeed + " stamina:  " + _stamina);
+		
+
 		}
 
 		private void JumpAndGravity()
@@ -306,6 +325,7 @@ namespace StarterAssets
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
 		}
 
+		// Coroutine for the stamina recharge
 		private IEnumerator StaminaRecharge()
 		{
 			yield return new WaitForSeconds(1f);
@@ -315,6 +335,7 @@ namespace StarterAssets
 				_stamina += _staminaRechargeRate / 10;
                 if (_stamina > _maxStamina)
                     _stamina = _maxStamina;
+                _staminaBar.fillAmount = _stamina / _maxStamina ;
                 yield return new WaitForSeconds(.1f);
             }
 	
