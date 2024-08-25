@@ -24,10 +24,8 @@ namespace StarterAssets
 		public float RotationSpeed = 1.0f;
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
-		[Tooltip("Current stamina")]
-		public float _stamina;
-		[Tooltip("Maximum Stamina")]
-		public float _maxStamina;
+
+
 
 		[Space(10)]
 		[Tooltip("The height the player can jump")]
@@ -69,10 +67,17 @@ namespace StarterAssets
 		private float _terminalVelocity = 53.0f;
 
 		// Stamina
+		[Header("Stamina")]
+		public GameObject m_staminaUI;
+		[Tooltip("Current stamina")]
+		public float _stamina;
+		[Tooltip("Maximum Stamina")]
+		public float _maxStamina;
 		private float _staminaRechargeRate = 5f;
 		private Coroutine _recharge;
-		public UnityEngine.UI.Image _staminaBar;
-		public UnityEngine.UI.Image _background;
+		public Image _staminaBar;
+		public Image _background;
+
 
 
 		// timeout deltatime
@@ -179,6 +184,7 @@ namespace StarterAssets
 				{
 					_stamina -= 5 * Time.deltaTime;
 					_staminaBar.fillAmount = _stamina / _maxStamina;
+
 				}
 				else
 				{
@@ -200,13 +206,15 @@ namespace StarterAssets
 			// If the stamina is equals to max stamina, then the stamina bar will dissapear
 			if (_stamina == _maxStamina)
 			{
-				_staminaBar.enabled = false;
-				_background.enabled = false;
+				//_staminaBar.enabled = false;
+				//_background.enabled = false;
+				m_staminaUI.SetActive(false);
 			}
 			else
 			{
-				_staminaBar.enabled = true;
-				_background.enabled = true;
+				//_staminaBar.enabled = true;
+				//_background.enabled = true;
+				m_staminaUI.SetActive(true);
 			}
 
 
