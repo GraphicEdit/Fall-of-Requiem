@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using System.Data.SqlTypes;
-using Microsoft.Unity.VisualStudio.Editor;
+//using System.Data.SqlTypes;
+//using Microsoft.Unity.VisualStudio.Editor;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 using System.Collections;
@@ -25,11 +25,11 @@ namespace StarterAssets
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
 		[Tooltip("Current stamina")]
-        public float _stamina;
+		public float _stamina;
 		[Tooltip("Maximum Stamina")]
-        public float _maxStamina;
+		public float _maxStamina;
 
-        [Space(10)]
+		[Space(10)]
 		[Tooltip("The height the player can jump")]
 		public float JumpHeight = 1.2f;
 		[Tooltip("The character uses its own gravity value. The engine default is -9.81f")]
@@ -57,7 +57,7 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera up")]
 		public float TopClamp = 90.0f;
 		[Tooltip("How far in degrees can you move the camera down")]
-		public float BottomClamp = -90.0f; 
+		public float BottomClamp = -90.0f;
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -69,11 +69,11 @@ namespace StarterAssets
 		private float _terminalVelocity = 53.0f;
 
 		// Stamina
-		private float _staminaRechargeRate =  5f;
+		private float _staminaRechargeRate = 5f;
 		private Coroutine _recharge;
 		public UnityEngine.UI.Image _staminaBar;
 		public UnityEngine.UI.Image _background;
-		 
+
 
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
@@ -127,7 +127,7 @@ namespace StarterAssets
 
 		private void Update()
 		{
-			//JumpAndGravity();
+			JumpAndGravity();
 			GroundedCheck();
 			Move();
 		}
@@ -171,53 +171,53 @@ namespace StarterAssets
 			// set target speed based on move speed, sprint speed and if sprint is pressed
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 
-            //	Stamina drain
+			//	Stamina drain
 
-            if (_input.sprint)
-            {
-                if (_stamina > 0)
-                {
-                    _stamina -= 5 * Time.deltaTime;
+			if (_input.sprint)
+			{
+				if (_stamina > 0)
+				{
+					_stamina -= 5 * Time.deltaTime;
 					_staminaBar.fillAmount = _stamina / _maxStamina;
-                }
-                else
-                {
-                    targetSpeed = MoveSpeed;
-                    _stamina = 0;
-                }
+				}
+				else
+				{
+					targetSpeed = MoveSpeed;
+					_stamina = 0;
+				}
 
-                if (_recharge != null)
-                {
-                    StopCoroutine(_recharge);
-                }
+				if (_recharge != null)
+				{
+					StopCoroutine(_recharge);
+				}
 
 
-			
 
-                _recharge = StartCoroutine(StaminaRecharge());
-            }
 
-            // If the stamina is equals to max stamina, then the stamina bar will dissapear
-            if (_stamina == _maxStamina)
-            {
-                _staminaBar.enabled = false;
-				_background.enabled= false;
-            }
-            else
-            {
-                _staminaBar.enabled = true;
+				_recharge = StartCoroutine(StaminaRecharge());
+			}
+
+			// If the stamina is equals to max stamina, then the stamina bar will dissapear
+			if (_stamina == _maxStamina)
+			{
+				_staminaBar.enabled = false;
+				_background.enabled = false;
+			}
+			else
+			{
+				_staminaBar.enabled = true;
 				_background.enabled = true;
-            }
+			}
 
 
 
 
 
-            // a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
+			// a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 
-            // note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
-            // if there is no input, set the target speed to 0
-            if (_input.move == Vector2.zero) targetSpeed = 0.0f;
+			// note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
+			// if there is no input, set the target speed to 0
+			if (_input.move == Vector2.zero) targetSpeed = 0.0f;
 
 			// a reference to the players current horizontal velocity
 			float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
@@ -250,11 +250,11 @@ namespace StarterAssets
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
 			}
-            
-            // move the player
-            _controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 
-		
+			// move the player
+			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+
+
 
 		}
 
@@ -333,14 +333,14 @@ namespace StarterAssets
 			while (_stamina < _maxStamina)
 			{
 				_stamina += _staminaRechargeRate / 10;
-                if (_stamina > _maxStamina)
-                    _stamina = _maxStamina;
-                _staminaBar.fillAmount = _stamina / _maxStamina ;
-                yield return new WaitForSeconds(.1f);
-            }
-	
+				if (_stamina > _maxStamina)
+					_stamina = _maxStamina;
+				_staminaBar.fillAmount = _stamina / _maxStamina;
+				yield return new WaitForSeconds(.1f);
+			}
 
-			
+
+
 		}
 	}
 }
