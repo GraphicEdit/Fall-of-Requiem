@@ -76,7 +76,14 @@ namespace StarterAssets
 		private float _staminaRechargeRate = 5f;
 		private Coroutine _recharge;
 		public Image _staminaBar;
-		public Image _background;
+
+
+		[Header("Healt")]
+		[Tooltip("Current Healt")]
+		public float healt;
+		[Tooltip("Maximum Healt")]
+		public float _maxHealt;
+		public Image _healtBar;
 
 
 
@@ -177,7 +184,6 @@ namespace StarterAssets
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 
 			//	Stamina drain
-
 			if (_input.sprint)
 			{
 				if (_stamina > 0)
@@ -197,23 +203,16 @@ namespace StarterAssets
 					StopCoroutine(_recharge);
 				}
 
-
-
-
 				_recharge = StartCoroutine(StaminaRecharge());
 			}
 
 			// If the stamina is equals to max stamina, then the stamina bar will dissapear
 			if (_stamina == _maxStamina)
 			{
-				//_staminaBar.enabled = false;
-				//_background.enabled = false;
 				m_staminaUI.SetActive(false);
 			}
 			else
 			{
-				//_staminaBar.enabled = true;
-				//_background.enabled = true;
 				m_staminaUI.SetActive(true);
 			}
 
