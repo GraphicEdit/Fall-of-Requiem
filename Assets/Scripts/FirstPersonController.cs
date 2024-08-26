@@ -143,7 +143,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
-			//HealthSystem();
+
 		}
 
 		private void LateUpdate()
@@ -337,21 +337,16 @@ namespace StarterAssets
 
 
 		//HealthSystem and dead screen
-		//private void HealthSystem()
 		private void OnTriggerEnter(Collider other)
 		{
-			if (_currentHealt <= 0) m_deadScreen.SetActive(true);
-
 			//Check to see if the tag on the collider is equal to Enemy
 			if (other.tag == "Enemy")
 			{
 				_currentHealt -= 25f;
 				_healtBar.fillAmount = _currentHealt / _maxHealt;
-
 			}
 
-
-
+			if (_currentHealt <= 0) m_deadScreen.SetActive(true);
 
 		}
 
