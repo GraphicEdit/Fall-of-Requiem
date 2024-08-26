@@ -79,8 +79,9 @@ namespace StarterAssets
 
 
 		[Header("Healt")]
+		public GameObject m_deadScreen;
 		[Tooltip("Current Healt")]
-		public float healt;
+		public float _currentHealt;
 		[Tooltip("Maximum Healt")]
 		public float _maxHealt;
 		public Image _healtBar;
@@ -142,6 +143,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+			HealthSystem();
 		}
 
 		private void LateUpdate()
@@ -330,6 +332,34 @@ namespace StarterAssets
 
 			// when selected, draw a gizmo in the position of, and matching radius of, the grounded collider
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
+		}
+
+
+
+
+
+
+
+		//HealthSystem and dead screen
+		private void HealthSystem()
+		{
+
+			if (Input.GetKeyUp(KeyCode.Q))
+			{
+				_currentHealt -= 25f;
+				_healtBar.fillAmount = _currentHealt / _maxHealt;
+
+			}
+
+
+			if (_currentHealt <= 0)
+			{
+
+				//Debug.Log("dead");
+				m_deadScreen.SetActive(true);
+
+			}
+
 		}
 
 		// Coroutine for the stamina recharge

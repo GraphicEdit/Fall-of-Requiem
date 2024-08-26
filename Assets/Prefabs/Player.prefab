@@ -233,11 +233,14 @@ MonoBehaviour:
   CinemachineCameraTarget: {fileID: 4135013735270702863}
   TopClamp: 89
   BottomClamp: -89
-  _stamina: 15
   m_staminaUI: {fileID: 0}
+  _stamina: 15
   _maxStamina: 15
   _staminaBar: {fileID: 0}
-  _background: {fileID: 0}
+  m_deadScreen: {fileID: 0}
+  _currentHealt: 100
+  _maxHealt: 100
+  _healtBar: {fileID: 0}
 --- !u!114 &1978471637655604388
 MonoBehaviour:
   m_ObjectHideFlags: 0
