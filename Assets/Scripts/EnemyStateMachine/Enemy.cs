@@ -136,6 +136,11 @@ public abstract class Enemy : MonoBehaviour
         {
             case EnemyState.Idle:
                 // Do something when entering idle state
+
+                navAgent.isStopped = true;
+                anim.SetBool("isWalking", false);
+                anim.SetBool("isIdle", true);
+
                 break;
 
             case EnemyState.Chasing:
@@ -149,6 +154,11 @@ public abstract class Enemy : MonoBehaviour
             case EnemyState.Patrol:
                 StopAllCoroutines();
                 GetNextPatrolPoint();
+
+                navAgent.isStopped = false;
+                anim.SetBool("isWalking", true);
+                anim.SetBool("isIdle", false);
+
                 break;
         }
     }
