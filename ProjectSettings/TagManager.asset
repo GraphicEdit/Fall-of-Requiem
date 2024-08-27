@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Enemy
+  - patrolPoint
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - Player
   - Push
   - Enemy
-  - 
-  - 
+  - Walls
+  - Obstruction
   - 
   - 
   - 
