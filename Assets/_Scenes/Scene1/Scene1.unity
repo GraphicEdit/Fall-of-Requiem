@@ -3154,14 +3154,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RealEnemy
       objectReference: {fileID: 0}
-    - target: {fileID: 3417135726591597542, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3417135726591597542, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5389366249571384074, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.74
@@ -3202,42 +3194,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: footstep
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: clips.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: 'clips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 8631d594e4abd4a4191c8681bfd4e008, type: 3}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: 'clips.Array.data[1]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 1deb25f7bf9271d48b760819bede9ef3, type: 3}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: 'clips.Array.data[2]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 52d2f3f42381fff41bde3f06d4da0329, type: 3}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: 'clips.Array.data[3]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 3a06ec41481c0374a9b5d5bbb4f332ed, type: 3}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: 'clips.Array.data[4]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 999f61f00aa776d44a4908eb45539dcf, type: 3}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: 'clips.Array.data[5]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 6ca75cd494316a94eb880bc490527b64, type: 3}
-    - target: {fileID: 5792613667811868684, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
-      propertyPath: 'clips.Array.data[6]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 5858f68fe02ed4c47991ae9bf79d91b7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3627,10 +3583,6 @@ PrefabInstance:
     - target: {fileID: 5420857361349278248, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: cursorLocked
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6974896999916695999, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
-      propertyPath: m_Volume
-      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: _healtBar
