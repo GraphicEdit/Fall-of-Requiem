@@ -26,7 +26,6 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected float gravity = -12;
     [SerializeField] protected int waitSecondsToKeepPatrilling = 0;
     [SerializeField] protected bool isPatroling = false;
-
     protected float velocityY;
     protected Transform target;
     protected Animator anim;
@@ -213,6 +212,8 @@ public abstract class Enemy : MonoBehaviour
         navAgent.SetDestination(patrolPoints[randomPoint].transform.position);
 
         CheckForTargetDistance();
+
+        Debug.Log("Going To Next Point");
     }
 
     protected IEnumerator WaitBeforePatrol()
