@@ -12,6 +12,7 @@ public class PlayerAudioController : MonoBehaviour
     float footstepSpeed = 0.3f;
 
     public AudioSource playerFootsteps;
+    public AudioSource playerHit;
 
 
     private void Awake()
@@ -32,4 +33,14 @@ public class PlayerAudioController : MonoBehaviour
             timer += Time.deltaTime;
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //Check to see if the tag on the collider is equal to Enemy
+        if (other.tag == "Enemy")
+        {
+            playerHit.Play();
+        }
+    }
+
 }
