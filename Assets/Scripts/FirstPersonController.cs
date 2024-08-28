@@ -16,6 +16,10 @@ namespace StarterAssets
 	public class FirstPersonController : MonoBehaviour
 	{
 		[Header("Player")]
+		//AUDIO TEST - ADDED TO KNOW IF PLAYER WAS MOVING
+		public bool isMoving = false;
+
+
 		[Tooltip("Move speed of the character in m/s")]
 		public float MoveSpeed = 4.0f;
 		[Tooltip("Sprint speed of the character in m/s")]
@@ -269,8 +273,16 @@ namespace StarterAssets
 			// move the player
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 
-
-
+			
+			// AUDIO TEST - ADDED TO KNOW IF PLAYER WAS MOVING
+			if (currentHorizontalSpeed > 0)
+			{
+				isMoving = true;
+			}
+			else
+			{	
+				isMoving = false; 
+			}
 		}
 
 		private void JumpAndGravity()

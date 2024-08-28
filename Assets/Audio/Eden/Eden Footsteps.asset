@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-5710307185009506317
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sfx_eden_mov_fs_05_{-5710307185009506317}
+  m_AudioClip: {fileID: 8300000, guid: 999f61f00aa776d44a4908eb45539dcf, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5137365432574180664
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sfx_eden_mov_fs_01_{-5137365432574180664}
+  m_AudioClip: {fileID: 8300000, guid: 8631d594e4abd4a4191c8681bfd4e008, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &361822099614884919
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sfx_eden_mov_fs_02_{361822099614884919}
+  m_AudioClip: {fileID: 8300000, guid: 1deb25f7bf9271d48b760819bede9ef3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1723185786951142321
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sfx_eden_mov_fs_03_{1723185786951142321}
+  m_AudioClip: {fileID: 8300000, guid: 52d2f3f42381fff41bde3f06d4da0329, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2968680602337480492
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sfx_eden_mov_fs_06_{2968680602337480492}
+  m_AudioClip: {fileID: 8300000, guid: 6ca75cd494316a94eb880bc490527b64, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Eden Footsteps
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -5137365432574180664}
+  - {fileID: 361822099614884919}
+  - {fileID: 1723185786951142321}
+  - {fileID: 8956434017701655411}
+  - {fileID: -5710307185009506317}
+  - {fileID: 2968680602337480492}
+  - {fileID: 6682123703250691923}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6682123703250691923
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sfx_eden_mov_fs_06_{6682123703250691923}
+  m_AudioClip: {fileID: 8300000, guid: 6ca75cd494316a94eb880bc490527b64, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8956434017701655411
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sfx_eden_mov_fs_04_{8956434017701655411}
+  m_AudioClip: {fileID: 8300000, guid: 3a06ec41481c0374a9b5d5bbb4f332ed, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
