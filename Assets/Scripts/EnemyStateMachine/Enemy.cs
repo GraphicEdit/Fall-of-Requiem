@@ -16,23 +16,24 @@ public abstract class Enemy : MonoBehaviour
         Patrol
     }
 
-    protected NavMeshAgent navAgent;
+    public NavMeshAgent navAgent;
 
     [SerializeField] protected string enemyName;
-    [SerializeField] protected float moveSpeed;
+    [SerializeField] protected float walkSpeed;
+    [SerializeField] protected float runSpeed;
     [SerializeField] protected float rotSpeed;
     [SerializeField] protected float followDistance;
     [SerializeField] protected float stopDistance;
     [SerializeField] protected float gravity = -12;
     [SerializeField] protected int waitSecondsToKeepPatrilling = 0;
     [SerializeField] protected bool isPatroling = false;
+    [SerializeField] public bool playerIsDetected;
     protected float velocityY;
     protected Transform target;
     protected Animator anim;
 
     [SerializeField]protected GameObject[] patrolPoints;
 
-    protected bool playerIsDetected;
 
     protected EnemyState currentState;
 
@@ -50,7 +51,7 @@ public abstract class Enemy : MonoBehaviour
 
     }
 
-    protected void Update()
+    protected virtual void Update()
     {
 
         if (Input.GetKeyUp(KeyCode.T))
@@ -58,8 +59,6 @@ public abstract class Enemy : MonoBehaviour
             StopAllCoroutines();
             MoveTowardsTarget();
         }
-        
-        CheckForTargetDistance();
 
     }
 
@@ -81,27 +80,18 @@ public abstract class Enemy : MonoBehaviour
 
         switch (currentState)
         {
-            case EnemyState.Idle:
-                if (objDistance <= followDistance)
-                {
-                    ChangeState(EnemyState.Chasing);
-                }
-                break;
 
             case EnemyState.Chasing:
+
                 if (objDistance > followDistance)
                 {
+                    playerIsDetected = false;
+                }
 
-                    ChangeState(EnemyState.Idle);
-                }
-                else if (objDistance <= stopDistance)
-                {
-                    ChangeState(EnemyState.Attacking);
-                }
-                else
-                {
-                    MoveTowardsTarget();
-                }
+                PlayerDetected();
+
+                CheckForTargetDistance();
+                
                 break;
 
             case EnemyState.Attacking:
@@ -117,13 +107,14 @@ public abstract class Enemy : MonoBehaviour
 
             case EnemyState.Patrol:
 
-                Debug.Log("is patroling");
+                //Debug.Log("is patroling");
+                CheckForTargetDistance();
 
                 break;
         }
     }
 
-    protected void ChangeState(EnemyState newState)
+    public virtual void ChangeState(EnemyState newState)
     {
         currentState = newState;
         OnStateEnter(newState);
@@ -144,6 +135,12 @@ public abstract class Enemy : MonoBehaviour
 
             case EnemyState.Chasing:
                 // For example, play a chasing animation or sound
+                navAgent.isStopped = false;
+                StopAllCoroutines();
+                anim.SetBool("isIdle", false);
+                anim.SetBool("isWalking", false);
+                anim.SetBool("isRunning", true);
+                navAgent.speed = runSpeed;
                 break;
 
             case EnemyState.Attacking:
@@ -155,6 +152,7 @@ public abstract class Enemy : MonoBehaviour
                 GetNextPatrolPoint();
 
                 navAgent.isStopped = false;
+                navAgent.speed = walkSpeed;
                 anim.SetBool("isWalking", true);
                 anim.SetBool("isIdle", false);
 
@@ -162,12 +160,12 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
-    protected void PlayerDetected(float objDistance)
+    protected void PlayerDetected()
     {
         if (playerIsDetected)
         {
-
-            
+            StopAllCoroutines();
+            MoveTowardsTarget();
 
         }
     }
@@ -186,7 +184,7 @@ public abstract class Enemy : MonoBehaviour
         //RotateToTarget(target);
     }
 
-    protected void CheckForTargetDistance()
+    public virtual void CheckForTargetDistance()
     {
 
         Vector3 currentPosition = this.transform.position; // Current position of the object
@@ -200,6 +198,7 @@ public abstract class Enemy : MonoBehaviour
         {
             if (distanceToTravel < 2)
             {
+                anim.SetBool("isRunning", false);
                 StartCoroutine(WaitBeforePatrol());
             }
         }
@@ -213,16 +212,18 @@ public abstract class Enemy : MonoBehaviour
 
         CheckForTargetDistance();
 
-        Debug.Log("Going To Next Point");
+        //Debug.Log("Going To Next Point");
     }
 
     protected IEnumerator WaitBeforePatrol()
     {
-        Debug.Log("is waiting");
+        //Debug.Log("is waiting");
 
         ChangeState(EnemyState.Idle);
 
         yield return new WaitForSeconds(waitSecondsToKeepPatrilling);
+
+        navAgent.isStopped = false;
 
         ChangeState(EnemyState.Patrol);
 

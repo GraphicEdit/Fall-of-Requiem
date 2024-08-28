@@ -6,15 +6,21 @@ using UnityEngine;
 public class VisionCone : MonoBehaviour
 {
 
-    [SerializeField] public Material VisionConeMaterial;
-    [SerializeField] public float VisionRange;
-    [SerializeField] public float VisionAngle;
-    [SerializeField] public LayerMask VisionObstructingLayer;//layer with objects that obstruct the enemy view, like walls, for example
-    [SerializeField] public int VisionConeResolution = 120;//the vision cone will be made up of triangles, the higher this value is the pretier the vision cone will be
+    public GameObject player;
+
+    public Enemy enemyState;
+
+    public Material VisionConeMaterial;
+    public float VisionRange;
+    public float VisionAngle;
+    public LayerMask VisionObstructingLayer;//layer with objects that obstruct the enemy view, like walls, for example
+    public int VisionConeResolution = 120;//the vision cone will be made up of triangles, the higher this value is the pretier the vision cone will be
 
     public Mesh VisionConeMesh;
 
     public MeshFilter MeshFilter_;
+
+    public bool isOutOfVision;
 
     //Create all of these variables, most of them are self explanatory, but for the ones that aren't i've added a comment to clue you in on what they do
 
@@ -25,6 +31,8 @@ public class VisionCone : MonoBehaviour
         MeshFilter_ = transform.AddComponent<MeshFilter>();
         VisionConeMesh = new Mesh();
         VisionAngle *= Mathf.Deg2Rad;
+
+        enemyState.GetComponent<Enemy>();
     }
 
     // Update is called once per frame
@@ -67,11 +75,23 @@ public class VisionCone : MonoBehaviour
             if (Physics.Raycast(transform.position, RaycastDirection, out RaycastHit hit, VisionRange, VisionObstructingLayer))
             {
                 Vertices[i + 1] = VertForward * hit.distance;
+
             }
             else
             {
                 Vertices[i + 1] = VertForward * VisionRange;
             }
+
+            if (hit.collider != null && hit.collider.gameObject.CompareTag("Player"))
+            {
+
+                enemyState.ChangeState(Enemy.EnemyState.Chasing);
+                enemyState.playerIsDetected = true;
+
+                //Debug.Log("Detected");
+                
+            }
+
 
             Currentangle += angleIcrement;
 
