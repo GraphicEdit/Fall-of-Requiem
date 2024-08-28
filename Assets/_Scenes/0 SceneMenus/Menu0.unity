@@ -751,6 +751,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2739727240572750314, guid: 9e705298c96994d449dd4cdf339ad74b, type: 3}
+      propertyPath: m_text
+      value: "Narrative and Level Design\nWilliam Dickerson (Mochread)\n\nMusic &
+        Sound Design\nAfonso C\xF4rte-Real \n\n3D Art\nSophie_Bordoni\n\nCoding\nTakumiTakumi\r\nthe_braziliandude\nGraphicEdit"
+      objectReference: {fileID: 0}
     - target: {fileID: 3377099406447650951, guid: 9e705298c96994d449dd4cdf339ad74b, type: 3}
       propertyPath: m_Name
       value: MusicVolumetxt
@@ -931,6 +936,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7688592698549023265, guid: 9e705298c96994d449dd4cdf339ad74b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7719266486269292275, guid: 9e705298c96994d449dd4cdf339ad74b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
