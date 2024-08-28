@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class EdenAudioController : MonoBehaviour
 {
+    public AudioClip[] clips;
     public AudioSource footstep;
     //public AudioSource idleBreathing;
 
@@ -13,7 +14,11 @@ public class EdenAudioController : MonoBehaviour
 
     private void EdenFootstep()
     {
-        footstep.Play(); 
+        int randomIndex = Random.Range(0, clips.Length);
+        AudioClip randomClip = clips[randomIndex];
+        footstep.clip = randomClip;
+
+        footstep.Play();
     }
 
 }
