@@ -1056,6 +1056,10 @@ PrefabInstance:
       value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8888134692839057860, guid: 9e705298c96994d449dd4cdf339ad74b, type: 3}
+      propertyPath: m_text
+      value: Fall of Requiem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888134692839057860, guid: 9e705298c96994d449dd4cdf339ad74b, type: 3}
       propertyPath: m_fontSize
       value: 72
       objectReference: {fileID: 0}
