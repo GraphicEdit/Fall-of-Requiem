@@ -178,7 +178,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.35
+  m_VoxelSize: 0.2
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 3a453763e4904694b8fd807a003d9658, type: 2}
   m_BuildHeightMesh: 0
@@ -728,6 +728,10 @@ PrefabInstance:
     - target: {fileID: 1777589351537251579, guid: a3bcc8c3b51c2dd4f8e301df075f7e1e, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777589351537251579, guid: a3bcc8c3b51c2dd4f8e301df075f7e1e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1812705062663474538, guid: a3bcc8c3b51c2dd4f8e301df075f7e1e, type: 3}
       propertyPath: m_Layer
@@ -1396,6 +1400,10 @@ PrefabInstance:
     - target: {fileID: 5273882278654632542, guid: a3bcc8c3b51c2dd4f8e301df075f7e1e, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273882278654632542, guid: a3bcc8c3b51c2dd4f8e301df075f7e1e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5274329019311565133, guid: a3bcc8c3b51c2dd4f8e301df075f7e1e, type: 3}
       propertyPath: m_Layer
@@ -3309,6 +3317,10 @@ PrefabInstance:
     - target: {fileID: 8645465151783790004, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887134811906421126, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
+      propertyPath: rotSpeed
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8887134811906421126, guid: b5e59ba18ad7d7946b06e6b43058ea39, type: 3}
       propertyPath: moveSpeed
