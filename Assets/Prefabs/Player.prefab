@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 5393215578589016654}
   - component: {fileID: 5393215578589016655}
   - component: {fileID: 5393215578589016640}
-  - component: {fileID: 5054643003329381109}
+  - component: {fileID: 6137045096082177033}
   m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
@@ -142,7 +142,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &5054643003329381109
+--- !u!54 &6137045096082177033
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
