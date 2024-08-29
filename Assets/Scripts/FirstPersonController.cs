@@ -358,10 +358,12 @@ namespace StarterAssets
 		private void OnTriggerEnter(Collider other)
 		{
 			//Check to see if the tag on the collider is equal to Enemy
-			if (other.tag == "HitBox")
+			if (other.gameObject.tag == "HitBox")
 			{
 				_currentHealt -= 25f;
 				_healtBar.fillAmount = _currentHealt / _maxHealt;
+
+				Debug.Log("Was hit");
 			}
 
 			if (_currentHealt <= 0) m_deadScreen.SetActive(true);
