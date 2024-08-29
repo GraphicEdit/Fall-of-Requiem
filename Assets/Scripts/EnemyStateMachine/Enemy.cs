@@ -56,10 +56,10 @@ public abstract class Enemy : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.T))
         {
-            StopAllCoroutines();
             MoveTowardsTarget();
         }
 
+        CheckForTargetDistance();
     }
 
     protected virtual void FixedUpdate()
@@ -83,35 +83,39 @@ public abstract class Enemy : MonoBehaviour
 
             case EnemyState.Chasing:
 
+                VisionCone visionCone = FindAnyObjectByType<VisionCone>();
+
+                visionCone.chaseToken = 1;
+
+                //Debug.Log(objDistance);
+
                 if (objDistance > followDistance)
                 {
                     playerIsDetected = false;
+                    visionCone.chaseToken = 0;
+                    CheckForTargetDistance();
                 }
 
+                if (objDistance < stopDistance)
+                {
+                    
+                    ChangeState(EnemyState.Attacking);
+                }
+                
                 PlayerDetected();
+
 
                 CheckForTargetDistance();
                 
                 break;
 
-            case EnemyState.Attacking:
-                if (objDistance > stopDistance)
-                {
-                    ChangeState(EnemyState.Chasing);
-                }
-                else
-                {
-                    //PerformAttack();
-                }
-                break;
-
             case EnemyState.Patrol:
 
                 //Debug.Log("is patroling");
-                CheckForTargetDistance();
 
                 break;
         }
+
     }
 
     public virtual void ChangeState(EnemyState newState)
@@ -145,6 +149,8 @@ public abstract class Enemy : MonoBehaviour
 
             case EnemyState.Attacking:
                 // For example, play an attacking animation or sound
+                StopCoroutine(PerformAttack());
+                StartCoroutine(PerformAttack());
                 break;
 
             case EnemyState.Patrol:
@@ -164,7 +170,7 @@ public abstract class Enemy : MonoBehaviour
     {
         if (playerIsDetected)
         {
-            StopAllCoroutines();
+            
             MoveTowardsTarget();
 
         }
@@ -199,6 +205,7 @@ public abstract class Enemy : MonoBehaviour
             if (distanceToTravel < 2)
             {
                 anim.SetBool("isRunning", false);
+                anim.SetBool("isWalking", true);
                 StartCoroutine(WaitBeforePatrol());
             }
         }
@@ -223,8 +230,6 @@ public abstract class Enemy : MonoBehaviour
 
         yield return new WaitForSeconds(waitSecondsToKeepPatrilling);
 
-        navAgent.isStopped = false;
-
         ChangeState(EnemyState.Patrol);
 
     }
@@ -246,6 +251,20 @@ public abstract class Enemy : MonoBehaviour
         this.gameObject.transform.rotation = Quaternion.Slerp(this.transform.rotation, lookRotation, rotSpeed * Time.deltaTime);
     }
 
-    // Method to perform the attack
-    protected abstract void PerformAttack();
+    protected IEnumerator PerformAttack()
+    {
+        navAgent.isStopped = true;
+
+        anim.SetBool("isIdle", false);
+        anim.SetBool("isWalking", false);
+        anim.SetTrigger("isAttacking");
+
+        yield return new WaitForSeconds(1.20f);
+
+        anim.SetBool("isRunning", false);
+
+        navAgent.isStopped = false;
+
+        ChangeState(EnemyState.Chasing);
+    }
 }
