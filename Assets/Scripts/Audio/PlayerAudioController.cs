@@ -37,7 +37,7 @@ public class PlayerAudioController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Check to see if the tag on the collider is equal to Enemy
-        if (other.tag == "Enemy")
+        if (other.gameObject.tag == "HitBox")
         {
             playerHit.Play();
         }
