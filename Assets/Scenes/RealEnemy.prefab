@@ -138,6 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clips: []
   footstep: {fileID: 3417135726591597542}
+  attack: {fileID: 0}
 --- !u!82 &3417135726591597542
 AudioSource:
   m_ObjectHideFlags: 0
