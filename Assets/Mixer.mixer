@@ -137,6 +137,34 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!245 &-1794647918860550196
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Paused
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 0e1f4800ee7bda544b4f4e32dc92f887
+  m_FloatValues:
+    a27e53c0ec9d7494ba5cff1016c4b002: 1.14
+    77631161524981f46a43ac1fe1f512dd: -0.0024417453
+    6d031c65eacc47943b323666d06685fa: 1.14
+    5cedfd06134d4d44d87af6c5833e7290: 3.1
+    5afd1fa77555a764ea0fbeebbd107c52: -1832
+    ce84cab7b422c224fa2ff9d969c45b8b: -80
+    35dd36e8728d63f4eb033f7d9d2ffc67: 0
+    610a11591f1c2fc49a93a1b732f07f29: -0.002441872
+    0d9c37ea34fc64b448faf535f1b3f600: -1776
+    d31e7cea1702a914ba706c80788c3223: 3.1
+    503e21bba44629644baedcbdc2065a80: 0.024
+    094c51dcbb234b44e94989268a9300bc: -10000
+    04869bfe84ea5d7428e2699aea874a48: -10000
+    8b03d83f774b2d846b933c201dd54d26: 0
+    e1e8404f32b94564f97f1ec307258644: -80
+    c836ad6f664d0d046ae958f121b92620: -80
+    b90e9aafc4ba78648999316ad4a5cf4e: -80
+  m_TransitionOverrides: {}
 --- !u!243 &-918456569530858347
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -167,6 +195,7 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
+  - {fileID: -1794647918860550196}
   m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
@@ -235,7 +264,7 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Snapshot
+  m_Name: Default
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 2d361315dc258384388f8086cc214e22
   m_FloatValues:
@@ -245,7 +274,7 @@ AudioMixerSnapshotController:
     5afd1fa77555a764ea0fbeebbd107c52: -1832
     ce84cab7b422c224fa2ff9d969c45b8b: 0.010232888
     35dd36e8728d63f4eb033f7d9d2ffc67: 0
-    610a11591f1c2fc49a93a1b732f07f29: -0.002441872
+    610a11591f1c2fc49a93a1b732f07f29: 0
     0d9c37ea34fc64b448faf535f1b3f600: -1776
     d31e7cea1702a914ba706c80788c3223: 3.1
     503e21bba44629644baedcbdc2065a80: 0.024
