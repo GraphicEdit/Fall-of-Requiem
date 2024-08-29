@@ -18,10 +18,16 @@ public class DeathAudioTrigger : MonoBehaviour
 
         paused.TransitionTo(.01f);
         musicController.DeathStinger(dead);
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     private void OnDestroy()
     {
         unpaused.TransitionTo(.01f);
+
+        //Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 }

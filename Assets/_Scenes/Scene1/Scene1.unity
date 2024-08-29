@@ -1079,7 +1079,7 @@ GameObject:
   - component: {fileID: 1176767847}
   - component: {fileID: 1176767848}
   m_Layer: 0
-  m_Name: AudioPlayer
+  m_Name: MusicController
   m_TagString: MusicController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1467,6 +1467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458767f8d95454b4da9dd4410ed06527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnTime: 1.7
   eden: {fileID: 0}
   search: {fileID: 8300000, guid: e6cfb3f00c676b047b75c357dbdcf4c6, type: 3}
   chase: {fileID: 8300000, guid: e18d8f45efea51a47aa443db32dc2295, type: 3}
@@ -2476,7 +2477,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 30
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -2885,7 +2886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4807905887055460106, guid: 5a06fda644b78d647bf9f6c520b59174, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5348435211562232078, guid: 5a06fda644b78d647bf9f6c520b59174, type: 3}
       propertyPath: m_Layer

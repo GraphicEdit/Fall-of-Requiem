@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class SwitchMusicTrigger : MonoBehaviour
 {
-    [SerializeField] 
+
+    [SerializeField] float spawnTime = 3f; //timeframe variable
+    private float tempCounter = 0f; //timeframe temp variable
+
+    [SerializeField]
     Eden eden;
+
 
     public AudioClip search;
     public AudioClip chase;
@@ -20,28 +25,109 @@ public class SwitchMusicTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (eden.playerIsDetected)
+        if (tempCounter <= 0f)
         {
-            if (!isChasing)
-            {
-                musicController.ChangeMusic(chase);
-                isChasing = true;
-                Debug.Log("music change");
+            //tempCounter = spawnTime;
 
-                return;
+            if (eden.playerIsDetected)
+            {
+                if (!isChasing)
+                {
+                        //change music to combat
+                        musicController.ChangeMusic(chase);
+                        isChasing = true;
+                        Debug.Log("CHASE SONG ON");
+                   
+                }
             }
-            else return;
+            else
+            {
+                if (isChasing)
+                {
+                        //change music to idle
+                        musicController.ChangeMusic(search);
+                        isChasing = false;
+                        Debug.Log("SEARCH SONG ON");
+                }
+            }
+            tempCounter = spawnTime;
         }
         else
         {
-            if (isChasing)
-            {
-                musicController.ChangeMusic(search);
-                isChasing = false;
-                Debug.Log("music change");
-
-                return;
-            }
+            tempCounter -= Time.deltaTime;
         }
     }
 }
+        
+        
+//        if (eden.playerIsDetected)
+//        {
+//            if (!isChasing)
+//            {
+//                //if (tempCounter <= 0f)
+//                //{
+//                    ChangeMusic();
+//                    tempCounter = spawnTime;
+//                    Debug.Log("music change");
+//                }
+//                else
+//                {
+//                    tempCounter -= Time.deltaTime;
+//                }
+
+//                return;
+//            }
+//            else return;
+//        }
+//        else
+//        {
+//            if (isChasing)
+//            {
+
+//                return;
+//            }
+//        }
+
+
+
+//        //if (tempCounter <= 0f)
+//        //{
+//        //    ChangeMusic();
+//        //    tempCounter = spawnTime;
+//        //    Debug.Log("music change");
+//        //}
+//        //else
+//        //{
+//        //    tempCounter -= Time.deltaTime;
+//        //}
+
+//    }
+
+//    private void ChangeMusic()
+//    {
+//       if (!isChasing)
+//        {
+//            musicController.ChangeMusic(chase);
+//            isChasing = true;
+//            //Debug.Log("music change");
+
+//            return;
+//        }
+//        else
+//        {
+//            musicController.ChangeMusic(search);
+//            isChasing = false;
+//            //Debug.Log("music change");
+
+//            return;
+//        }
+            
+//            musicController.ChangeMusic(search);
+//            isChasing = false;
+//             //Debug.Log("music change");
+
+//             return;
+//            }
+//        }
+//     }
+//}

@@ -26,12 +26,17 @@ public class PauseManager : MonoBehaviour
                 PausePanel.SetActive(false);
                 Time.timeScale = 1;
                 unpaused.TransitionTo(.01f);
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                Debug.Log("oooppoo");
             }
             else
             {
                 PausePanel.SetActive(true);
                 Time.timeScale = 0;
                 paused.TransitionTo(.01f);
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
             }
             m_isPaused = !m_isPaused;
         }

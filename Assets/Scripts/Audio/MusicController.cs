@@ -16,6 +16,7 @@ public class MusicController : MonoBehaviour
 
         music.Stop();
         music.clip = musicSource;
+        music.volume = 0.85f;
         music.Play();
     }
 
