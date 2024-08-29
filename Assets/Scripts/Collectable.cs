@@ -21,7 +21,7 @@ public class Collectable : MonoBehaviour
     {
 
         //Destroy(other.gameObject);
-        image.SetActive(false);
+        //image.SetActive(false);
     }
 
 
