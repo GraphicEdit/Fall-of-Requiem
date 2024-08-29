@@ -10,6 +10,8 @@ public class VisionCone : MonoBehaviour
 
     public Enemy enemyState;
 
+    public int chaseToken = 0;
+
     public Material VisionConeMaterial;
     public float VisionRange;
     public float VisionAngle;
@@ -31,6 +33,8 @@ public class VisionCone : MonoBehaviour
         MeshFilter_ = transform.AddComponent<MeshFilter>();
         VisionConeMesh = new Mesh();
         VisionAngle *= Mathf.Deg2Rad;
+
+        chaseToken = 0;
 
         enemyState.GetComponent<Enemy>();
     }
@@ -85,10 +89,15 @@ public class VisionCone : MonoBehaviour
             if (hit.collider != null && hit.collider.gameObject.CompareTag("Player"))
             {
 
-                enemyState.ChangeState(Enemy.EnemyState.Chasing);
-                enemyState.playerIsDetected = true;
+                if (chaseToken != 1)
+                {
 
-                //Debug.Log("Detected");
+                    enemyState.ChangeState(Enemy.EnemyState.Chasing);
+                    enemyState.playerIsDetected = true;
+
+                    Debug.Log("Detected");
+
+                }
                 
             }
 

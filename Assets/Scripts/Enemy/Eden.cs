@@ -7,9 +7,4 @@ public class Eden : Enemy
     {
         base.OnStateEnter(state);
     }
-
-    protected override void PerformAttack()
-    {
-        
-    }
 }
