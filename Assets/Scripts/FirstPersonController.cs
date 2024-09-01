@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.Rendering;
+
 //using System.Data.SqlTypes;
 //using Microsoft.Unity.VisualStudio.Editor;
 #if ENABLE_INPUT_SYSTEM
@@ -198,9 +200,11 @@ namespace StarterAssets
 			//	Stamina drain
 			if (_input.sprint)
 			{
+			
+				
 				if (_stamina > 0)
 				{
-					_stamina -= 5 * Time.deltaTime;
+					_stamina -= 1 * Time.deltaTime * _speed;
 					_staminaBar.fillAmount = _stamina / _maxStamina;
 
 				}
@@ -212,10 +216,11 @@ namespace StarterAssets
 
 				if (_recharge != null)
 				{
-					StopCoroutine(_recharge);
+				StopCoroutine(_recharge);
 				}
 
 				_recharge = StartCoroutine(StaminaRecharge());
+					
 			}
 
 			// If the stamina is equals to max stamina, then the stamina bar will dissapear
@@ -377,7 +382,7 @@ namespace StarterAssets
 
 			while (_stamina < _maxStamina)
 			{
-				_stamina += _staminaRechargeRate / 10;
+				_stamina += _staminaRechargeRate / 5;
 				if (_stamina > _maxStamina)
 					_stamina = _maxStamina;
 				_staminaBar.fillAmount = _stamina / _maxStamina;
