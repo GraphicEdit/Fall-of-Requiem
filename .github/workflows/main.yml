@@ -1,5 +1,5 @@
-            - name: Add To GitHub projects
-  uses: actions/add-to-project@v1.0.2
+name: Add To GitHub projects
+uses: actions/add-to-project@v1.0.2
   with:
     # URL of the project to add issues to
     project-url: https://github.com/users/GraphicEdit/projects/3
