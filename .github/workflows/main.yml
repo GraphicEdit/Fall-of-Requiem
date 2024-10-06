@@ -9,7 +9,7 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@RELEASE_VERSION
+      - uses: actions/checkout@3
         with:
           project-url: https://github.com/users/GraphicEdit/projects/3
           github-token: TEST          
