@@ -1,7 +1,15 @@
 name: Add To GitHub projects
-uses: actions/add-to-project@v1.0.2
-  with:
-      project-url: https://github.com/users/GraphicEdit/projects/3
-      github-token: TEST
+on:
+  issues:
+    types:
+      - opened
 
-          
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@RELEASE_VERSION
+        with:
+          project-url: https://github.com/users/GraphicEdit/projects/3
+          github-token: TEST          
